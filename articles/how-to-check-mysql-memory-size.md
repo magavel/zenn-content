@@ -22,23 +22,31 @@ published: false
 
 ## 【手順1】ストレージエンジンの種類を確認する
 MySQLは使用しているストレージエンジンによってメモリの使い方や確認項目が変わってきます。
+
 今回は代表的なInnoDBを対象としているため、下記クエリを実行してストレージエンジンがInnoDBであることを確認してください。
 
 ```sql:mysql
-SHOW ENGINES;
+SHOW TABLE STATUS FROM データベース名;
 ```
 
-
+**各テーブルのEngineカラムの値がInnoDBになっていればOKです。**
 
 ※ストレージエンジンとは、
 > SQL文を受け取って結果を返すデータベースエンジン部分　⇨ つまりテーブルにデータを書き込んだり読みだしたりするプログラム
 
 https://qiita.com/ishishow/items/280a9d049b8f7bcbc14a
 
-## メモリ設定の確認クエリ
-```sql
-SELECT @@GLOBAL.INNODB_BUFFER_POOL_SIZE/1024/1024/1024 as メモリサイズ（単位：GB）;
+## 【手順2】グローバルバッファのメモリ量を確認する
+手順1でストレージエンジンがInnoDBであることを確認できたら、INNODB_BUFFER_POOL_SIZEの値を確認します。
+
+```sql:mysql
+SELECT @@GLOBAL.INNODB_BUFFER_POOL_SIZE/1024/1024 as メモリサイズ（単位：MB）;
 ```
+
+**このINNODB_BUFFER_POOL_SIZEの値がMySQL全体で使用できるメモリ量です。**
+
+INNODB_BUFFER_POOL_SIZEの値は単位がバイトになっているので、そのまま取得すると分かりづらいため、1024で割って調整すると良いです。
+例はMB（メガバイト）ですが、さらに/1024を付け足せばGB（ギガバイト）に変換できます。
 
 # まとめ
 かなり前にMySQLのメモリ設定を確認する作業に同席してたことはあったけど、
