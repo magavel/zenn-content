@@ -3,7 +3,7 @@ title: "「MySQLに割り当てられているメモリ量を確認して」と�
 emoji: "🐬"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["MySQL", "Linux"]
-published: false
+published: true
 ---
 
 実務でDBのメモリ設定を確認することがあったので、手順を残しておきます。
