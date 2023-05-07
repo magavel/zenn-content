@@ -106,11 +106,11 @@ Goのコードのように`&&`や`||`が使えなかったり、ビルドタグ�
 
 加えて、Docコメントと区別するために、ビルドタグの次の行には空行が必要という制約もあります。
 
-```go
-// Doc comment.
-// +build linux
-package p
-```
+> ```go
+> // Doc comment.
+> // +build linux
+> package p
+> ```
 
 この例の`// +build linux`はビルドタグではなく、Docコメントの一部として扱われます。
 
@@ -123,22 +123,22 @@ package p
 - `//go:generate`や`//go:noinline`のような書き方に合わせた
 - 記述位置が空行とコメント行（`//`と`/* */`）を除いたファイルの先頭という条件に緩和された
 
-```diff
-- // +build linux darwin
-- // +build amd64 arm64 mips64x ppc64x
-
-+ //go:build (linux || darwin) && (amd64 || arm64 || mips64x || ppc64x)
-```
+> ```diff
+> - // +build linux darwin
+> - // +build amd64 arm64 mips64x ppc64x
+> 
+> + //go:build (linux || darwin) && (amd64 || arm64 || mips64x || ppc64x)
+> ```
 
 **このように書けるようになりました！**
 
 否定したいときも、
 
-```diff
-- //go:build (linux || darwin) && (amd64 || arm64 || mips64x || ppc64x)
-
-+ //go:build !((linux || darwin) && (amd64 || arm64 || mips64x || ppc64x))
-```
+> ```diff
+> - //go:build (linux || darwin) && (amd64 || arm64 || mips64x || ppc64x)
+> 
+> + //go:build !((linux || darwin) && (amd64 || arm64 || mips64x || ppc64x))
+> ```
 
 全体を囲って`!`をつけるだけで済みます。
 
