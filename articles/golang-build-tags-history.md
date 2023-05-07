@@ -3,7 +3,7 @@ title: "Goのビルドタグの書き方が// +buildから//go:buildに変わっ
 emoji: "🐷"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["go"]
-published: false
+published: true
 ---
 
 # ざっくり言うと
