@@ -3,6 +3,7 @@ title: "後方互換性のあるGoだからこそ実装依存なコードに気�
 emoji: "🔬"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["go"]
+publication_name: "team_soda"
 published: true
 published_at: 2023-12-21 07:00
 ---
@@ -232,7 +233,7 @@ Go1.12までは問題なく動作するのですが、Go1.13からは`strconv.Pa
 
 アドベントカレンダーの宣伝です！
 
-昨日は[@koh7](https://zenn.dev/koh7)さんによる「[MySQLのトランザクション分離レベルとアノマリーについて調べてみた]()」でした！
+昨日は[@koh7](https://zenn.dev/koh7)さんによる「[MySQLのトランザクション分離レベルとアノマリーについて調べてみた](https://zenn.dev/team_soda/articles/24ea9290ea4c13)」でした！
 
 明日は[@okauchiwani](https://zenn.dev/okauchiwani)さんによる「Datadogブラウザテストを触ってみた」です！
 
