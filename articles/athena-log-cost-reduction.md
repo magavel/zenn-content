@@ -4,7 +4,8 @@ emoji: "💵"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AWS", "Athena", "Datadog", "Cost", "SRE"]
 publication_name: "team_soda"
-published: false
+published: true
+published_at: 2025-05-21 06:00
 ---
 
 ログ監視・分析サービスを用いた過去ログ調査では、時にそのコストが大きな課題となります。
