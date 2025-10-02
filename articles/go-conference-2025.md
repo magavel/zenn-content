@@ -92,13 +92,11 @@ LTトップバッターとして手間取ってしまった場面もありまし
 
 https://x.com/hajimehoshi/status/1971743015241994513
 
-弊社SODAはSilverスポンサーとしても参加しており、ブースの出し物として登壇内容(interningの概念)から着想を得たブラウザゲームを作りました。
-
-Opening Sessionでも話にあがったEbitenginを使ってほぼGoで実装されています。
+弊社SODAはSilverスポンサーとしても参加しており、ブースの出し物として登壇内容(interningの概念)から着想を得たブラウザゲームを作りました。Opening Sessionでも話にあがったEbitenginを使ってほぼGoで実装されています。
 
 思っていた以上に大きな反響があり、Ebitengin作者の[@hajimehoshi](https://x.com/hajimehoshi)さんにもシェアいただくなど、Gopherの方々から好評でコントリビューター一同打ち上げで美味しいお酒が飲めました。
 
-リポジトリは以下で公開しています。
+リポジトリはこちらで公開しています。
 
 https://github.com/snkrdunk/find-gopher
 
