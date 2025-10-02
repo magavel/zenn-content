@@ -112,4 +112,4 @@ https://github.com/snkrdunk/find-gopher
 
 個人としてはShort Session(20分)に挑戦することを目標にしつつ、社内からの参加者や登壇者を増やすためのGoに関する取り組みなんかも始めたいなと考えています。
 
-そして来年はもっとたくさんのGopherたちと交流したいので、Xアカウント([@magavel_dev](https://x.com/magavel_dev))をøフォローしてもらえると嬉しいです！（2秒でフォロバします）
+そして来年はもっとたくさんのGopherたちと交流したいので、Xアカウント([@magavel_dev](https://x.com/magavel_dev))をフォローしてもらえると嬉しいです！（2秒でフォロバします）
