@@ -44,7 +44,7 @@ Go初心者〜advancedな方まで何か一つでも持って帰ってもらえ�
 ![](/images/go-conference-2025/survey.png)
 :::
 
-### 当日
+#### 当日
 
 ![](/images/go-conference-2025/talk.jpg)
 
