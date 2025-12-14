@@ -2,7 +2,7 @@
 title: "GWC2025 IN KOBE 参加レポート"
 emoji: "🚢"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: ["go", "workshop", "conference", "アドベントカレンダー"]
+topics: ["go", "workshop", "conference", "アドベントカレンダー", "GWC2025"]
 published: true
 publication_name: "team_soda"
 published_at: 2025-12-14 13:30
@@ -79,6 +79,7 @@ https://go-workshop-conference.connpass.com/event/375457/
 ![](https://storage.googleapis.com/zenn-user-upload/14883b9d15d5-20251214.jpg)
 
 ワークショップの合間に立ち寄れるブースがいくつかありました。
+
 TinyGoの展示ブースは、Gopherくん基板や名札基板、リアルな抵抗があるハンドルなど、メカメカしくてずっと見てられました。次は必ず名札基板を作りたいです。
 
 # 飛び込み参加OKのLT会場や、シャッフルランチ、ジェスチャーゲームなどなど
