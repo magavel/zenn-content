@@ -59,7 +59,7 @@ https://zenn.dev/jo1106/articles/2785a393827627#soda.inc%E3%81%95%E3%82%93%E3%81
 
 # miniだけどminiではないGo Conferenceでした
 
-![](/images/go-conference-mini-2026-in-sendai/keynote.jpg)
+![](/images/go-conference-mini-2026-in-sendai/keynote.png)
 *tenntennさんによるKeynoteセッション*
 
 参加者数117名、セッション数33(LT含む)、スポンサーブースもあり、良い意味でminiとは？を考えさせられる規模感で賑わっていました。
